@@ -1,6 +1,7 @@
 spring:
   profiles: local
-
+  zipkin:
+    base-url: http://localhost:9411/
 server:
   port: 2100
 
